@@ -13,9 +13,9 @@ int main()
     fflush(stdin);
     // La lectura anterior debe ser mayor a 0 y la lectura actual mayor a la primera.
     // Ingresar la lectura Anterior y la Actual
-    cout << "\nIngrese la lectura del mes anterior: ";
+    cout << "Ingrese la lectura del mes anterior: ";
     cin >> lecturaAnterior;
-    cout << "\nIngrese la lectura de este mes: ";
+    cout << "Ingrese la lectura de este mes: ";
     cin >> lecturaActual;
 
     // Calcular el consumo
@@ -24,7 +24,7 @@ int main()
     valorAPagar = 0.8 * consumo;
 
     // Mostrar el resultado en consola.
-    cout << "\nEmpresa Electrica EMAAP-Q";
+    cout << "\nEMPRESA ELECTRICA QUITO S.A.";
     cout << "\nNombre: " << nombre;
     cout << "\nLectura Anterior: " << lecturaAnterior << " KW";
     cout << "\nLectura Actual: " << lecturaActual << " KW";
